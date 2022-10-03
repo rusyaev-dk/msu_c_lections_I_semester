@@ -111,23 +111,23 @@ struct List_unit *sort_list_by_task(List_unit *lst)
 			new_head = delete_head(lst);// происходит сдвиг на следующий элемент и он становится корнем
 			first_unit_2 = new_head;
 			lst = new_head;
-			printf_s("\nDeleted head 5"); 
+			//printf_s("\nDeleted head 5"); 
 		}
 		else if ((lst->num) == 5)
 		{
 			lst = delete_element(new_head, lst); // происходит сдвиг на след элемент после удаляемого
-			printf_s("\nDeleted elem 5");
+			//printf_s("\nDeleted elem 5");
 		}
 		else
 		{
-			printf_s("\nPassed %d", lst->num);
+			//printf_s("\nPassed %d", lst->num);
 			lst = lst->next;
 		}
 	}
 	if (lst->num == 5) // Обработка крайнего случая, когда последний элемент равен 5
 	{
 		lst = delete_element(new_head, lst);
-		printf_s("\nDeleted elem 5");
+		//printf_s("\nDeleted elem 5");
 	}
 
 	printf_s("\nList sorted!\n");
@@ -145,6 +145,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	srand(time(NULL));
+	
 	const char filename[] = "input_file.txt";
 	List_unit *first_unit;
 
