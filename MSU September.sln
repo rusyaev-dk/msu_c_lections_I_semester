@@ -35,9 +35,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read and write file with fu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Custom data types", "Custom data types\Custom data types.vcxproj", "{8E4B350B-71CF-44C7-8231-F17D2AC6BEAC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doubly linked lists test", "Doubly linked lists test\Doubly linked lists test.vcxproj", "{784C5FC7-C99C-4C07-A98D-0147F868C963}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doubly linked lists", "Doubly linked lists test\Doubly linked lists test.vcxproj", "{784C5FC7-C99C-4C07-A98D-0147F868C963}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singly linked lists", "Singly linked lists\Singly linked lists.vcxproj", "{4347A86E-8B90-465F-A891-9CBDC044F723}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BIG_TEST", "BIG_TEST\BIG_TEST.vcxproj", "{602DB318-1658-4AFD-B618-CE2073AED75C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,14 @@ Global
 		{4347A86E-8B90-465F-A891-9CBDC044F723}.Release|x64.Build.0 = Release|x64
 		{4347A86E-8B90-465F-A891-9CBDC044F723}.Release|x86.ActiveCfg = Release|Win32
 		{4347A86E-8B90-465F-A891-9CBDC044F723}.Release|x86.Build.0 = Release|Win32
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Debug|x64.ActiveCfg = Debug|x64
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Debug|x64.Build.0 = Debug|x64
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Debug|x86.ActiveCfg = Debug|Win32
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Debug|x86.Build.0 = Debug|Win32
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Release|x64.ActiveCfg = Release|x64
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Release|x64.Build.0 = Release|x64
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Release|x86.ActiveCfg = Release|Win32
+		{602DB318-1658-4AFD-B618-CE2073AED75C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
